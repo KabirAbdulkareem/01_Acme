@@ -76,6 +76,11 @@ html {
   width: 100vw;
 }
 
+#main .container p{
+  position: relative;
+  z-index: 1;
+}
+
 #main .container p.first_child {
   font-size: 4.5rem;
   margin-bottom: 4rem;
