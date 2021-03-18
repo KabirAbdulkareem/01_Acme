@@ -20,7 +20,6 @@ html {
   color: #d35122;
 }
 
-
 /* header section style */
 
 #header {
@@ -53,19 +52,35 @@ html {
   color: white;
 }
 
-
-
 /* main section style */
 
-#main .container{
-    text-align: center;
+#main {
+  background: url(./backDrop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8rem;
+  height: 100vh;
+  position: relative;
+  color: #fff
+}
+#main .container {
+  text-align: center;
 }
 
-#main .container p:first-child {
-    font-size: 4.5rem;
+#main #filter{
+  position: absolute;
+  top:0;
+  left:0;
+  background: rgba(95, 158, 160, 0.404);
+  height: 100vh;
+  width: 100vw;
+}
+
+#main .container p.first_child {
+  font-size: 4.5rem;
+  margin-bottom: 4rem;
 }
 
 #main .container p:last-child {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
