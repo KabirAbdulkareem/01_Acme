@@ -57,26 +57,28 @@ html {
 #main {
   background: url(./backDrop.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   padding-top: 8rem;
   height: 100vh;
   position: relative;
-  color: #fff
-}
-#main .container {
-  text-align: center;
+  color: #fff;
+  overflow: hidden;
 }
 
-#main #filter{
+#main #filter {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background: rgba(95, 158, 160, 0.404);
   height: 100vh;
   width: 100vw;
 }
 
-#main .container p{
+#main .container {
+  text-align: center;
+}
+
+#main .container p {
   position: relative;
   z-index: 1;
 }
