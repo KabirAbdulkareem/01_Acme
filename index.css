@@ -91,3 +91,10 @@ html {
 #main .container p:last-child {
   font-size: 2rem;
 }
+
+
+/* To be deleted */
+
+#footer{
+  background: black;
+}
